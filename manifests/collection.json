@@ -1,0 +1,13 @@
+{
+  "id" : "https://bodassistant.github.io/IIIF_Course_Demonstration/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in bodassistant/IIIF_Course_Demonstration project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://bodassistant.github.io/IIIF_Course_Demonstration/manifests/manifest.json",
+    "label" : "Prognoses for the New Year"
+  } ]
+}
