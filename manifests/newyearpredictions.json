@@ -1,0 +1,117 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://bodassistant.github.io/IIIF_Course_Demonstration/manifests/newyearpredictions.json",
+  "@type" : "sc:Manifest",
+  "label" : "Prognoses for the New Year",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A collection of prognoses for the New Year, featuring leaves from fifteenth-century German manuscripts held in Oxford, Heidelberg and Sankt Gallen.",
+    "@language" : "en"
+  } ],
+  "attribution" : "Original images available from the Bodleian Library, Oxford, Universitätsbibliothek, Heidelberg, and Stiftsbibliothek, Sankt Gallen.",
+  "viewingHint" : "paged",
+  "license" : "https://creativecommons.org/licenses/by-nc/4.0/",
+  "sequences" : [ {
+    "@id" : "http://defa2a6f-a562-42ad-9716-b61a9fa5ca98",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://2e9ffd72-4b27-4468-a908-f87fa6647d69",
+      "@type" : "sc:Canvas",
+      "label" : "Bodleian Library MS. Broxb. 84.3, fol. 183v",
+      "height" : 7106,
+      "width" : 6336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://853f8690-7a76-4948-982c-352065e4c123",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/135e475f-1e0e-4fd7-a0f4-8efbfb14fa13/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/135e475f-1e0e-4fd7-a0f4-8efbfb14fa13",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png", "webp" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 4000,
+              "maxHeight" : 4000
+            } ]
+          },
+          "height" : 7106,
+          "width" : 6336
+        },
+        "on" : "http://2e9ffd72-4b27-4468-a908-f87fa6647d69"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7014a8cc-d826-4c06-a851-cb7c65ac30fc",
+      "@type" : "sc:Canvas",
+      "label" : "Universitätsbibliothek Heidelberg, Cod. Pal. germ. 577, fol. 14r",
+      "height" : 1817,
+      "width" : 1258,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://223afb07-0916-4abd-b6f0-b5209972266e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://digi.ub.uni-heidelberg.de/iiif/2/cpg577%3A014r.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://digi.ub.uni-heidelberg.de/iiif/2/cpg577%3A014r.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2285786,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1817,
+          "width" : 1258
+        },
+        "on" : "http://7014a8cc-d826-4c06-a851-cb7c65ac30fc"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9415790a-86b5-4612-964d-794abd95fb10",
+      "@type" : "sc:Canvas",
+      "label" : "Sankt Gallen, Stiftsbibliothek, cod. Sang. 754, p. 91",
+      "height" : 8176,
+      "width" : 6132,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f2704691-c14d-4a29-bd1d-4a605ad5efdd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.e-codices.unifr.ch/loris/csg/csg-0754/csg-0754_091.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-codices.unifr.ch/loris/csg/csg-0754/csg-0754_091.jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png", "gif", "webp" ],
+              "supports" : [ "canonicalLinkHeader", "profileLinkHeader", "mirroring", "rotationArbitrary", "regionSquare", "sizeAboveFull" ],
+              "qualities" : [ "default", "bitonal", "gray", "color" ]
+            } ]
+          },
+          "height" : 8176,
+          "width" : 6132
+        },
+        "on" : "http://9415790a-86b5-4612-964d-794abd95fb10"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
