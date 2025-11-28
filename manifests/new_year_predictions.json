@@ -54,8 +54,8 @@
       "@id" : "http://7014a8cc-d826-4c06-a851-cb7c65ac30fc",
       "@type" : "sc:Canvas",
       "label" : "Universitätsbibliothek Heidelberg, Cod. Pal. germ. 577, fol. 14r",
-      "height" : 1817,
-      "width" : 1258,
+      "height" : 7268,
+      "width" : 5032,
       "images" : [ {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "@id" : "http://223afb07-0916-4abd-b6f0-b5209972266e",
