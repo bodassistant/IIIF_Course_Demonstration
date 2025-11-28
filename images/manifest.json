@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://bodassistant.github.io/IIIF_Course_Demonstration/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in bodassistant/IIIF_Course_Demonstration project"
+        ]
+    },
+    "items": []
+}
